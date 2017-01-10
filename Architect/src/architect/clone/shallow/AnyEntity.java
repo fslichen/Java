@@ -1,20 +1,11 @@
 package architect.clone.shallow;
 
-public class AnyEntity implements Cloneable {
+import lombok.Data;
+
+@Data
+public class AnyEntity implements Cloneable {// Don't forget to implement Cloneable.
 	private String name;
-
-	@Override
-	public String toString() {
-		return "AnyEntity [name=" + name + "]";
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
+	private AnotherEntity anotherEntity;
 	
 	@Override
     protected Object clone() throws CloneNotSupportedException {
