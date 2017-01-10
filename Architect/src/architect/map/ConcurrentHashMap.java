@@ -1,4 +1,4 @@
-package architect.collection.map.concurrentHashMap;
+package architect.map;
 
 import java.util.Collection;
 import java.util.Map;

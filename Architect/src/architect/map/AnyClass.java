@@ -1,4 +1,4 @@
-package architect.collection.map.hashMap;
+package architect.map;
 
 import java.util.HashMap;
 import java.util.Map;

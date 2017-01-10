@@ -1,4 +1,4 @@
-package architect.collection.equals;
+package architect.collection.set.equals;
 
 import java.util.LinkedHashSet;
 import java.util.Set;
