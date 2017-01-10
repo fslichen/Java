@@ -1,6 +1,6 @@
 package architect.abstractClass;
 
-public class AnyMain {
+public class Main {
 	public static void main(String[] args) {
 		AnyClass anyClass = new AnyClass();
 		anyClass.introduce();
