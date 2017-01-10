@@ -3,7 +3,7 @@ package architect.lambda;
 import java.util.LinkedList;
 import java.util.List;
 
-public class MethodIteration {
+public class MethodIterationDemo {
 	public static void main(String[] args) {
 		List<String> strings = new LinkedList<>();
 		strings.add("Hello World");

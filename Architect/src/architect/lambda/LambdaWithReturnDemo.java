@@ -1,6 +1,6 @@
 package architect.lambda;
 
-public class LambdaWithReturn {
+public class LambdaWithReturnDemo {
 	public interface Operation {
 		int compare(int a, int b);
 	}
@@ -16,7 +16,7 @@ public class LambdaWithReturn {
 		Operation max = (int a, int b) -> {
 			return a > b ? a : b;
 		};
-		LambdaWithReturn ifStatement = new LambdaWithReturn();
+		LambdaWithReturnDemo ifStatement = new LambdaWithReturnDemo();
 		System.out.println(ifStatement.compare(2, min, 3));
 		System.out.println(ifStatement.compare(2, max, 3));
 	}
