@@ -3,7 +3,7 @@ package architect.annotation;
 import org.junit.Test;
 
 
-public class AnyService5 {
+public class AnyClass {
 	@AnyAnnotation(name = "Chen", gender = "M")
 	public void anyMethod() {
 		try {
