@@ -4,7 +4,7 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
-public class AnyClass {
+public class SortWrapperClass {
 	public static void main(String[] args) {
 		List<Double> numbers = new LinkedList<>();
 		numbers.add(4.0);
