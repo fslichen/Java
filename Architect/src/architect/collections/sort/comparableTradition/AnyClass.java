@@ -1,4 +1,4 @@
-package architect.collections.sort.comparable;
+package architect.collections.sort.comparableTradition;
 
 import java.util.ArrayList;
 import java.util.Collections;

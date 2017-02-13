@@ -1,4 +1,4 @@
-package architect.collections.sort.comparator;
+package architect.collections.sort.comparatorTradition;
 
 import java.util.Collections;
 import java.util.Comparator;
