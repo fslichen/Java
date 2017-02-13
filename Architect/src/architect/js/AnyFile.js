@@ -10,3 +10,5 @@ function calculate(amount, percentage) {
 
 var result = calculate(568000000000000000023,13.9);
 print(result);
+// You can see the result in java concole. But most of the time when you need to call java function
+// from js, you need to call the rest apis.
